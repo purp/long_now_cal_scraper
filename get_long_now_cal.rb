@@ -25,7 +25,8 @@ end
 
 def get_first_event_from_url(url)
   parsed = Icalendar::Calendar.parse(open(url)) #returns array of calendars
-  parsed.first.events.first
+  # TODO: Add proper timezone info
+  event = parsed.first.events.first
 end
 
 VERSION = "1.0"
