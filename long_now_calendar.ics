@@ -1,0 +1,92 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+DTSTAMP:20180325T211808Z
+UID:42364fed-88f5-4e03-8c97-ab44997c0d30
+DTSTART:20180522T193000
+DTEND:20180522T210000
+DESCRIPTION:TIX: No Link Yet\nMAP: https://maps.google.com/maps?ie=UTF-8&q=
+ SF+Jazz+Center&fb=1&gl=us&hq=SF+Jazz+Center&cid=0\,0\,18141891765408404528
+ &ei=hcBIUaD_CZDtiQLJh4GQBg&ved=0CIsBEPwSMAE\nSTREAM: http://longnow.org/li
+ ve/\n\n                    \n                        Benjamin Grant is the
+  author of Overview and also oversees the Instagram project Daily Overview
+ \, from which the book takes its inspiration. Grant graduated from Yale Un
+ iversity\, where he studied World History\, and Art History.\n\nTickets wi
+ ll go on sale one month before the Seminar\; you can follow Long Now on Tw
+ itter\, Facebook and through our blog for updates on our live events\, pod
+ casts and videos on long-term thinking.\n                    \n           
+      
+LOCATION:SFJAZZ Center
+PRIORITY:3
+SUMMARY:Benjamin Grant: Overview: Earth and Civilization in the Macroscope
+URL:http://longnow.org/seminars/02018/may/22/overview-earth-and-civilizatio
+ n-macroscope/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20180325T211809Z
+UID:ff83e3fd-58e4-4cfe-8639-7966f75162b3
+DTSTART:20180619T193000
+DTEND:20180619T210000
+DESCRIPTION:TIX: No Link Yet\nMAP: https://maps.google.com/maps?ie=UTF-8&q=
+ SF+Jazz+Center&fb=1&gl=us&hq=SF+Jazz+Center&cid=0\,0\,18141891765408404528
+ &ei=hcBIUaD_CZDtiQLJh4GQBg&ved=0CIsBEPwSMAE\nSTREAM: http://longnow.org/li
+ ve/\n\n                    \n                         Chris D. Thomas is a
+  Professor in the Department of Biology at the University of York and a Fe
+ llow of The Royal Society. His research focuses on understanding how human
+ s have transformed the biological world\, and how humans might protect the
+  worldâs remaining biodiversity. He is author of the 02017 book\, Inh
+ eritors of the Earth: How Nature Is Thriving in an Age of Extinction.\n\nT
+ ickets will go on sale one month before the Seminar\; you can follow Long 
+ Now on Twitter\, Facebook and through our blog for updates on our live eve
+ nts\, podcasts and videos on long-term thinking.\n                    \n  
+               
+LOCATION:SFJAZZ Center
+PRIORITY:3
+SUMMARY:Chris D. Thomas: Are We Initiating The Great Anthropocene Speciatio
+ n Event?
+URL:http://longnow.org/seminars/02018/jun/19/are-we-initiating-great-anthro
+ pocene-speciation-event/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20180325T211810Z
+UID:d13bf824-907f-4e5c-b9ef-161272f070bd
+DTSTART:20180423T193000
+DTEND:20180423T210000
+DESCRIPTION:TIX: https://www.eventbrite.com/e/kishore-mahbubani-has-the-wes
+ t-lost-it-can-asia-save-it-tickets-44271924518\nMAP: https://maps.google.c
+ om/maps?ie=UTF-8&q=SF+Jazz+Center&fb=1&gl=us&hq=SF+Jazz+Center&cid=0\,0\,1
+ 8141891765408404528&ei=hcBIUaD_CZDtiQLJh4GQBg&ved=0CIsBEPwSMAE\nSTREAM: ht
+ tp://longnow.org/live/\n\n                    \n                        In
+  Kishore Mahbubaniâs view\, global power is shifting from the West to
+  the Restâfrom Europe and North America to Asia and Africa. He argues
+  that changes will be required both in the West and the Rest to manage the
+  shift gracefully for long-term stability.  The rest of the world has lear
+ ned a great deal from the West.  Now it is the Westâs turn to learn a
+ nd to dispel some of its myths about the new world order.\n\nSingaporean d
+ iplomat and scholar Kishore Mahbubani served as his nationâs Ambassad
+ or to the United Nations and as President of the UN Security Council.  He 
+ is a Professor in the Practice of Public Policy at the National University
+  of Singapore where he was Dean of the Lee Kuan Yew School of Public Polic
+ y from 2004 to 2017.  His books include Has the West Lost It?: A Provocati
+ on  (2018)\;  The ASEAN Miracle  (2017)\;  The Great Convergence  (2013)\;
+  and  The New Asian Hemisphere  (2008).\n\nThe Long Now Foundation and Asi
+ a Society Northern California are partnering on a series of talks in Long 
+ Now's Seminars About Long-term Thinking series. With the Asia Pacific regi
+ on being vital to long term thinking for the planet\, and especially for t
+ hose on the Pacific coast\, we believe that there is a fruitful collaborat
+ ion to explore for our both of our memberships and the wider public.\n\nTh
+ e Asia Society's depth of knowledge about critical issues\, key leaders an
+ d cultural perspectives coming out of Asia can inform the topics\, people 
+ and conversations featured in the long-running Seminar series curated and 
+ hosted by Long Now's president Stewart Brand. Public access to the recorde
+ d talks broadens the reach of this in-depth collaboration.\n              
+       \n                
+LOCATION:SFJAZZ Center
+PRIORITY:3
+SUMMARY:Kishore Mahbubani: Has the West Lost It? Can Asia Save It?
+URL:http://longnow.org/seminars/02018/apr/23/has-west-lost-it-can-asia-save
+ -it/
+END:VEVENT
+END:VCALENDAR
