@@ -4,6 +4,7 @@ require 'rubygems'
 require 'nokogiri'
 require 'open-uri'
 require 'icalendar'
+require 'icalendar/tzinfo'
 
 def find_upcoming_seminar_uris(url)
   seminars_page = Nokogiri::HTML(open(url))
@@ -27,12 +28,16 @@ def get_first_event_from_url(url)
   parsed.first.events.first
 end
 
+VERSION = "1.0"
+
 SEMINAR_LIST_URI = URI("http://longnow.org/seminars/")
 CONVERSATION_LIST_URI = URI("https://theinterval.org/salon-talks/all")
 
-# TODO: Seed this with interesting data
 calendar = Icalendar::Calendar.new
 calendar.prodid = "Long Now Cal Scraper v#{VERSION} https://github.com/purp/long_now_cal_scraper"
+tz = TZInfo::Timezone.get("America/Los_Angeles")
+calendar.add_timezone(tz.ical_timezone(DateTime.new(1999, 6, 19, 19, 15, 0)))
+
 
 # Fetch seminars page URLs from  http://longnow.org/seminars/list/
 find_upcoming_seminar_uris(SEMINAR_LIST_URI).each do |seminar_uri|
