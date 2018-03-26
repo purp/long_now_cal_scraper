@@ -1,92 +1,347 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:icalendar-ruby
+PRODID:Long Now Cal Scraper v1.0 https://github.com/purp/long_now_cal_scrap
+ er
 CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+DTSTART:19990404T030000
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=4
+TZNAME:PDT
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19991031T010000
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:PST
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
-DTSTAMP:20180325T211808Z
-UID:42364fed-88f5-4e03-8c97-ab44997c0d30
+DTSTAMP:20180326T033941Z
+UID:5098d38b-d798-4eaa-9596-bdde2dbaa92b
 DTSTART:20180522T193000
 DTEND:20180522T210000
 DESCRIPTION:TIX: No Link Yet\nMAP: https://maps.google.com/maps?ie=UTF-8&q=
  SF+Jazz+Center&fb=1&gl=us&hq=SF+Jazz+Center&cid=0\,0\,18141891765408404528
  &ei=hcBIUaD_CZDtiQLJh4GQBg&ved=0CIsBEPwSMAE\nSTREAM: http://longnow.org/li
- ve/\n\n                    \n                        Benjamin Grant is the
-  author of Overview and also oversees the Instagram project Daily Overview
- \, from which the book takes its inspiration. Grant graduated from Yale Un
- iversity\, where he studied World History\, and Art History.\n\nTickets wi
- ll go on sale one month before the Seminar\; you can follow Long Now on Tw
- itter\, Facebook and through our blog for updates on our live events\, pod
- casts and videos on long-term thinking.\n                    \n           
-      
+ ve/\n----------\nBenjamin Grant is the author of Overview and also oversee
+ s the Instagram project Daily Overview\, from which the book takes its ins
+ piration. Grant graduated from Yale University\, where he studied World Hi
+ story\, and Art History.\n\nTickets will go on sale one month before the S
+ eminar\; you can follow Long Now on Twitter\, Facebook and through our blo
+ g for updates on our live events\, podcasts and videos on long-term thinki
+ ng.
 LOCATION:SFJAZZ Center
 PRIORITY:3
-SUMMARY:Benjamin Grant: Overview: Earth and Civilization in the Macroscope
+SUMMARY:SALT: "Overview: Earth and Civilization in the Macroscope\," Benjam
+ in Grant
 URL:http://longnow.org/seminars/02018/may/22/overview-earth-and-civilizatio
  n-macroscope/
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20180325T211809Z
-UID:ff83e3fd-58e4-4cfe-8639-7966f75162b3
+DTSTAMP:20180326T033942Z
+UID:28d19c55-a6a3-4c5a-9a2e-05fa4a9fe307
 DTSTART:20180619T193000
 DTEND:20180619T210000
 DESCRIPTION:TIX: No Link Yet\nMAP: https://maps.google.com/maps?ie=UTF-8&q=
  SF+Jazz+Center&fb=1&gl=us&hq=SF+Jazz+Center&cid=0\,0\,18141891765408404528
  &ei=hcBIUaD_CZDtiQLJh4GQBg&ved=0CIsBEPwSMAE\nSTREAM: http://longnow.org/li
- ve/\n\n                    \n                         Chris D. Thomas is a
-  Professor in the Department of Biology at the University of York and a Fe
- llow of The Royal Society. His research focuses on understanding how human
- s have transformed the biological world\, and how humans might protect the
-  worldâs remaining biodiversity. He is author of the 02017 book\, Inh
- eritors of the Earth: How Nature Is Thriving in an Age of Extinction.\n\nT
- ickets will go on sale one month before the Seminar\; you can follow Long 
- Now on Twitter\, Facebook and through our blog for updates on our live eve
- nts\, podcasts and videos on long-term thinking.\n                    \n  
-               
+ ve/\n----------\nChris D. Thomas is a Professor in the Department of Biolo
+ gy at the University of York and a Fellow of The Royal Society. His resear
+ ch focuses on understanding how humans have transformed the biological wor
+ ld\, and how humans might protect the worldâs remaining biodiversity.
+  He is author of the 02017 book\, Inheritors of the Earth: How Nature Is T
+ hriving in an Age of Extinction.\n\nTickets will go on sale one month befo
+ re the Seminar\; you can follow Long Now on Twitter\, Facebook and through
+  our blog for updates on our live events\, podcasts and videos on long-ter
+ m thinking.
 LOCATION:SFJAZZ Center
 PRIORITY:3
-SUMMARY:Chris D. Thomas: Are We Initiating The Great Anthropocene Speciatio
- n Event?
+SUMMARY:SALT: "Are We Initiating The Great Anthropocene Speciation Event?\,
+ " Chris D. Thomas
 URL:http://longnow.org/seminars/02018/jun/19/are-we-initiating-great-anthro
  pocene-speciation-event/
 END:VEVENT
 BEGIN:VEVENT
-DTSTAMP:20180325T211810Z
-UID:d13bf824-907f-4e5c-b9ef-161272f070bd
+DTSTAMP:20180326T033943Z
+UID:4a40cbe0-7b06-4d44-b362-b28acb94fce1
 DTSTART:20180423T193000
 DTEND:20180423T210000
 DESCRIPTION:TIX: https://www.eventbrite.com/e/kishore-mahbubani-has-the-wes
  t-lost-it-can-asia-save-it-tickets-44271924518\nMAP: https://maps.google.c
  om/maps?ie=UTF-8&q=SF+Jazz+Center&fb=1&gl=us&hq=SF+Jazz+Center&cid=0\,0\,1
  8141891765408404528&ei=hcBIUaD_CZDtiQLJh4GQBg&ved=0CIsBEPwSMAE\nSTREAM: ht
- tp://longnow.org/live/\n\n                    \n                        In
-  Kishore Mahbubaniâs view\, global power is shifting from the West to
-  the Restâfrom Europe and North America to Asia and Africa. He argues
-  that changes will be required both in the West and the Rest to manage the
-  shift gracefully for long-term stability.  The rest of the world has lear
- ned a great deal from the West.  Now it is the Westâs turn to learn a
- nd to dispel some of its myths about the new world order.\n\nSingaporean d
- iplomat and scholar Kishore Mahbubani served as his nationâs Ambassad
- or to the United Nations and as President of the UN Security Council.  He 
- is a Professor in the Practice of Public Policy at the National University
-  of Singapore where he was Dean of the Lee Kuan Yew School of Public Polic
- y from 2004 to 2017.  His books include Has the West Lost It?: A Provocati
- on  (2018)\;  The ASEAN Miracle  (2017)\;  The Great Convergence  (2013)\;
-  and  The New Asian Hemisphere  (2008).\n\nThe Long Now Foundation and Asi
- a Society Northern California are partnering on a series of talks in Long 
- Now's Seminars About Long-term Thinking series. With the Asia Pacific regi
- on being vital to long term thinking for the planet\, and especially for t
- hose on the Pacific coast\, we believe that there is a fruitful collaborat
- ion to explore for our both of our memberships and the wider public.\n\nTh
- e Asia Society's depth of knowledge about critical issues\, key leaders an
- d cultural perspectives coming out of Asia can inform the topics\, people 
- and conversations featured in the long-running Seminar series curated and 
- hosted by Long Now's president Stewart Brand. Public access to the recorde
- d talks broadens the reach of this in-depth collaboration.\n              
-       \n                
+ tp://longnow.org/live/\n----------\nIn Kishore Mahbubaniâs view\, glo
+ bal power is shifting from the West to the Restâfrom Europe and North
+  America to Asia and Africa. He argues that changes will be required both 
+ in the West and the Rest to manage the shift gracefully for long-term stab
+ ility.  The rest of the world has learned a great deal from the West.  Now
+  it is the Westâs turn to learn and to dispel some of its myths about
+  the new world order.\n\nSingaporean diplomat and scholar Kishore Mahbuban
+ i served as his nationâs Ambassador to the United Nations and as Pres
+ ident of the UN Security Council.  He is a Professor in the Practice of Pu
+ blic Policy at the National University of Singapore where he was Dean of t
+ he Lee Kuan Yew School of Public Policy from 2004 to 2017.  His books incl
+ ude Has the West Lost It?: A Provocation  (2018)\;  The ASEAN Miracle  (20
+ 17)\;  The Great Convergence  (2013)\; and  The New Asian Hemisphere  (200
+ 8).\n\nThe Long Now Foundation and Asia Society Northern California are pa
+ rtnering on a series of talks in Long Now's Seminars About Long-term Think
+ ing series. With the Asia Pacific region being vital to long term thinking
+  for the planet\, and especially for those on the Pacific coast\, we belie
+ ve that there is a fruitful collaboration to explore for our both of our m
+ emberships and the wider public.\n\nThe Asia Society's depth of knowledge 
+ about critical issues\, key leaders and cultural perspectives coming out o
+ f Asia can inform the topics\, people and conversations featured in the lo
+ ng-running Seminar series curated and hosted by Long Now's president Stewa
+ rt Brand. Public access to the recorded talks broadens the reach of this i
+ n-depth collaboration.
 LOCATION:SFJAZZ Center
 PRIORITY:3
-SUMMARY:Kishore Mahbubani: Has the West Lost It? Can Asia Save It?
+SUMMARY:SALT: "Has the West Lost It? Can Asia Save It?\," Kishore Mahbubani
 URL:http://longnow.org/seminars/02018/apr/23/has-west-lost-it-can-asia-save
  -it/
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20180326T033948Z
+UID:c76bfb86-58b1-467f-9fba-c0eb1b6c6e63
+DTSTART:20180327T193000
+DTEND:20180327T213000
+DESCRIPTION:TIX: https://eventbrite.com/e/43117817553\nMAP: https://www.goo
+ gle.com/maps/place/The+Interval+at+Long+Now/@37.8066031\,-122.4343554\,17z
+ \nSTREAM: http://longnow.org/live/\n----------\nTechnologyâs promise 
+ is to âsaveâ time. Its track record in real and psychological te
+ rms is often the opposite. A sociologist of science and technology\, Judy 
+ Wajcman continues her examinations of time pressure and acceleration in th
+ e digital age. â¨Her latest work considers how calendar software inter
+ actsâ¨ with the existing anxieties of our digitally driven lives.\n\n\
+ n\nJudy Wajcman is the Anthony Giddens Professor of Sociology at the Londo
+ n School of Economics. Professor Wajcman was one of the founding contribut
+ ors to the field of the social study of Science and Technology\, as well a
+ s to studies of gender\, work and organizations. Her latest books\, \nPres
+ sed for Time\n and \nThe Sociology of Speed\n\, argue for a sociomaterial 
+ approach to the study of time. She is currently a fellow at the Center for
+  Advanced Studies in the Behavioral Sciences (CASBS) at Stanford\, co-spon
+ sors of this talk.
+LOCATION:The Interval at Long Now\, 2 Marina Blvd\, Fort Mason\, San Franci
+ sco\, CA
+SUMMARY:Interval: "Time Poverty Amidst Digital Abundance\," Judy Wajcman
+URL:https://theinterval.org/salon-talks/02018/mar/27/time-poverty-amidst-di
+ gital-abundance-wajcman
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20180326T033949Z
+UID:1964d400-df96-40aa-8036-7007cc6bd054
+DTSTART:20180410T193000
+DTEND:20180410T213000
+DESCRIPTION:TIX: No Link Yet\nMAP: https://www.google.com/maps/place/The+In
+ terval+at+Long+Now/@37.8066031\,-122.4343554\,17z\nSTREAM: http://longnow.
+ org/live/\n----------\nClandestine influence campaigns are rampant on soci
+ al media. Whether pushing Russian agitprop or lies about vaccines\, they c
+ an impact policy and make us question what is true. A technologist\, Wall 
+ Street veteran\, and citizen advisor to Congress\, DiResta will tell us ho
+ w bad it is and some things we can do.\n\n\n\n\nRenÃ©e DiResta is a co-f
+ ounder of Haven\, a trade technology platform. Previously she was a Princi
+ pal at O'Reilly AlphaTech Ventures where she invested in early technology 
+ startups and prior to that spent seven years on Wall Street as an equity d
+ erivatives trader and market maker for Jane Street Capital. She is the aut
+ hor of \nThe Hardware Startup: Building your Product\, Business\, and Bran
+ d\n (OâReilly Media) and her writing has appeared in or been covered 
+ by Fast Company\, Business Insider\, TechCrunch\, Wired\, Forbes\, and man
+ y other prominent media outlets.\n                \n                \n    
+             \n\n                    Tickets go on sale to Long Now\n      
+                   members 2 weeks before the talk and then to the\n       
+                  general public. Most talks sell out quickly due\n        
+                 to our small capacity. "Patron tickets" are available\n   
+                      after other tickets sell out\; they include a reserve
+ d\n                        seat and are partially tax deductible. Our live
+ \n                        videostream of each talk is free to Long Now mem
+ bers\n                        at http://longnow.org/live.\n               
+      Talks begin at\n                        7:30pm (unless otherwise note
+ d)\; check-in starts at\n                        6:30pm.The videostream of
+  each talk starts at 7:15\n                        for Long Now members.\n
+                         We reopen to the public at 8:30pm\, after the\n   
+                      event.
+LOCATION:The Interval at Long Now\, 2 Marina Blvd\, Fort Mason\, San Franci
+ sco\, CA
+SUMMARY:Interval: "Disinformation Technology: How Online Propaganda Campaig
+ ns Are Influencing Us\," RenÃ©e DiResta
+URL:https://theinterval.org/salon-talks/02018/apr/10/disinformation-technol
+ ogy-online-propaganda-campaigns-diresta
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20180326T033950Z
+UID:7fe53ebb-d076-4556-89f6-7b3cebbc5427
+DTSTART:20180417T193000
+DTEND:20180417T213000
+DESCRIPTION:TIX: No Link Yet\nMAP: https://www.google.com/maps/place/The+In
+ terval+at+Long+Now/@37.8066031\,-122.4343554\,17z\nSTREAM: http://longnow.
+ org/live/\n----------\nThe future of privacy begins with the current state
+  of surveillance. The 21st century practices of US intelligence agencies p
+ ush the technological\, legal and political limits of lawful surveillance.
+  Jennifer Granick is a civil liberties and privacy law expert with the Ame
+ rican Civil Liberties Union (ACLU) who is the perfect guide to how the sys
+ tem works and the technological and political means we have to defend our 
+ privacy.\n\n\n\n\nJennifer Granick fights for civil liberties in an age of
+  massive surveillance and powerful digital technology. As surveillance and
+  cybersecurity counsel with the ACLU Speech\, Privacy and Technology Proje
+ ct\, she litigates\, speaks\, and writes about privacy\, security\, techno
+ logy\, and constitutional rights. She is the former Executive Director of 
+ Stanford Law Schoolâs Center for Internet and Society and also former
+  Civil Liberties Director at the Electronic Frontier Foundation. Her book 
+ \nAmerican Spies: Modern Surveillance\, Why You Should Care\, and What To 
+ Do About It\n won the 02016 Palmer Civil Liberties Prize for scholarship e
+ xploring the tension between civil liberties and national security in cont
+ emporary American society. An experienced litigator and criminal defense a
+ ttorney\, she has taught subjects like surveillance law\, cybersecurity\, 
+ and encryption policy at Stanford Law School.\n                \n         
+        \n                \n\n                    Tickets go on sale to Lon
+ g Now\n                        members 2 weeks before the talk and then to
+  the\n                        general public. Most talks sell out quickly 
+ due\n                        to our small capacity. "Patron tickets" are a
+ vailable\n                        after other tickets sell out\; they incl
+ ude a reserved\n                        seat and are partially tax deducti
+ ble. Our live\n                        videostream of each talk is free to
+  Long Now members\n                        at http://longnow.org/live.\n  
+                   Talks begin at\n                        7:30pm (unless o
+ therwise noted)\; check-in starts at\n                        6:30pm.The v
+ ideostream of each talk starts at 7:15\n                        for Long N
+ ow members.\n                        We reopen to the public at 8:30pm\, a
+ fter the\n                        event.
+LOCATION:The Interval at Long Now\, 2 Marina Blvd\, Fort Mason\, San Franci
+ sco\, CA
+SUMMARY:Interval: "Modern Surveillance: Why You â¨Should Care and What 
+ You Can Do\," Jennifer Granick
+URL:https://theinterval.org/salon-talks/02018/apr/17/modern-surveillance-wh
+ y-you-should-care-and-what-you-can-do-Granick
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20180326T033952Z
+UID:3d183504-8f1b-4679-9f64-5687791264fa
+DTSTART:20180508T193000
+DTEND:20180508T213000
+DESCRIPTION:TIX: No Link Yet\nMAP: https://www.google.com/maps/place/The+In
+ terval+at+Long+Now/@37.8066031\,-122.4343554\,17z\nSTREAM: http://longnow.
+ org/live/\n----------\nScience fiction does more than predict future inven
+ tions. Stories are a testbed for exploring the unexpected ways people coul
+ d incorporate technology into their cultures. Science journalist and novel
+ ist \nAnnalee Newitz\n will discuss how scientists\, innovators\, and the 
+ rest of us benefit from the crucible of imaginative fictions.\n\n\n\n\nAnn
+ alee is the author of the bestselling novel \nAutonomous\n. Her nonfiction
+  book \nScatter\, Adapt and Remember: How Humans Will Survive a Mass Extin
+ ction\n was a finalist for the LA Times Book Prize in science. She is the 
+ founding editor of io9.com\, and formerly the editor-in-chief of Gizmodo. 
+ Currently she is editor-at-large for Ars Technica. Her work has appeared i
+ n New York Times\, The New Yorker\, Atlantic\, Wired\, Washington Post\, T
+ echnology Review\, 2600\, and many other publications. Formerly she was a 
+ policy analyst at the Electronic Frontier Foundation and a lecturer in Ame
+ rican Studies at UC Berkeley. She received a Knight Science Journalism Fel
+ lowship from MIT\, and has a Ph.D. in English and American Studies from UC
+  Berkeley.\n                \n                \n                \n\n      
+               Tickets go on sale to Long Now\n                        memb
+ ers 2 weeks before the talk and then to the\n                        gener
+ al public. Most talks sell out quickly due\n                        to our
+  small capacity. "Patron tickets" are available\n                        a
+ fter other tickets sell out\; they include a reserved\n                   
+      seat and are partially tax deductible. Our live\n                    
+     videostream of each talk is free to Long Now members\n                
+         at http://longnow.org/live.\n                    Talks begin at\n 
+                        7:30pm (unless otherwise noted)\; check-in starts a
+ t\n                        6:30pm.The videostream of each talk starts at 7
+ :15\n                        for Long Now members.\n                      
+   We reopen to the public at 8:30pm\, after the\n                        e
+ vent.
+LOCATION:The Interval at Long Now\, 2 Marina Blvd\, Fort Mason\, San Franci
+ sco\, CA
+SUMMARY:Interval: "Science Needs Fiction\," Annalee Newitz
+URL:https://theinterval.org/salon-talks/02018/may/08/science-needs-fiction-
+ newitz
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20180326T033953Z
+UID:9a15ef41-bb67-4a48-8e27-298f6c5a3768
+DTSTART:20180515T193000
+DTEND:20180515T213000
+DESCRIPTION:TIX: No Link Yet\nMAP: https://www.google.com/maps/place/The+In
+ terval+at+Long+Now/@37.8066031\,-122.4343554\,17z\nSTREAM: http://longnow.
+ org/live/\n----------\nThe world's first crowd-sourced project\, the first
+  Edition OED took 70 years and the work of thousands of people to complete
+ . Dr Sarah Ogilvie (Stanford) shares the untold stories of the volunteers 
+ who created the Oxford English Dictionary from her new research.\n\n\n\n\n
+ Dr. Ogilvie is a linguist and lexicographer who works at the intersection 
+ of technology and the social sciences. She teaches in the linguistics depa
+ rtment at Stanford and this year is a Berggruen Fellow at Stanford's Cente
+ r for Advanced Study in the Behavioral Sciences (CASBS). Ogilvie is also D
+ irector of the Stanford Dictionary Lab and Co-Director of Stanford's Digit
+ al Humanities Minor. Her books include \nWords of the World: a Global Hist
+ ory of the OED\n and \nKeeping Languages Alive\n. Before Stanford\, Ogilvi
+ e was an Editor on the OED\, taught linguistics at Cambridge University\, 
+ and worked at Amazon's innovation lab in Silicon Valley.\n                
+ \n                \n                \n\n                    Tickets go on 
+ sale to Long Now\n                        members 2 weeks before the talk 
+ and then to the\n                        general public. Most talks sell o
+ ut quickly due\n                        to our small capacity. "Patron tic
+ kets" are available\n                        after other tickets sell out\
+ ; they include a reserved\n                        seat and are partially 
+ tax deductible. Our live\n                        videostream of each talk
+  is free to Long Now members\n                        at http://longnow.or
+ g/live.\n                    Talks begin at\n                        7:30p
+ m (unless otherwise noted)\; check-in starts at\n                        6
+ :30pm.The videostream of each talk starts at 7:15\n                       
+  for Long Now members.\n                        We reopen to the public at
+  8:30pm\, after the\n                        event.
+LOCATION:The Interval at Long Now\, 2 Marina Blvd\, Fort Mason\, San Franci
+ sco\, CA
+SUMMARY:Interval: "Words from the Crowd: The Collaboration That Made The Ox
+ ford English Dictionary\," Sarah Ogilvie
+URL:https://theinterval.org/salon-talks/02018/may/15/words-from-the-crowd-o
+ ed-Ogilvie
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20180326T033954Z
+UID:ba3eff48-d505-4349-b829-bf1cc683d9dd
+DTSTART:20180904T193000
+DTEND:20180904T213000
+DESCRIPTION:TIX: No Link Yet\nMAP: https://www.google.com/maps/place/The+In
+ terval+at+Long+Now/@37.8066031\,-122.4343554\,17z\nSTREAM: http://longnow.
+ org/live/\n----------\nThe ambition to think on the scale of thousands\, m
+ illions\, even billion of years emerged in the 19th century. Historian and
+  author \nCaroline Winterer\n chronicles how the concept of âdeep tim
+ eâ has inspired and puzzled thinkers in cognitive science\, art\, geo
+ logy (and elsewhere) to become one of the most â¨influential ideas of 
+ the modern era.\n\n\n\n\n\nCaroline Winterer\n is Anthony P. Meier Family 
+ Professor in the Humanities and Director of the Stanford Humanities Center
+ . She is an American historian\, with special expertise in American though
+ t and culture. Her most recent book is \nAmerican Enlightenments: Pursuing
+  Happiness in the Age of Reason\n. Other books include \nThe Mirror of Ant
+ iquity: American Women and the Classical Tradition\, 1750-1900\n\, and \nT
+ he Culture of Classicism: Ancient Greece and Rome in American Intellectual
+  Life\, 1780-1910\n. She has received fellowships from among others the Me
+ llon Foundation\, the National Endowment for the Humanities\, and the Nati
+ onal Humanities Center. Her writing appears in numerous publications and a
+ cademic journals. For mapping the social network of Benjamin Franklin she 
+ received an American Ingenuity Award from the Smithsonian Institution.\n  
+               \n                \n                \n\n                    
+ Tickets go on sale to Long Now\n                        members 2 weeks be
+ fore the talk and then to the\n                        general public. Mos
+ t talks sell out quickly due\n                        to our small capacit
+ y. "Patron tickets" are available\n                        after other tic
+ kets sell out\; they include a reserved\n                        seat and 
+ are partially tax deductible. Our live\n                        videostrea
+ m of each talk is free to Long Now members\n                        at htt
+ p://longnow.org/live.\n                    Talks begin at\n               
+          7:30pm (unless otherwise noted)\; check-in starts at\n           
+              6:30pm.The videostream of each talk starts at 7:15\n         
+                for Long Now members.\n                        We reopen to
+  the public at 8:30pm\, after the\n                        event.
+LOCATION:The Interval at Long Now\, 2 Marina Blvd\, Fort Mason\, San Franci
+ sco\, CA
+SUMMARY:Interval: "The Art and Science of Deep Time:Conceiving the Inconcei
+ vable\, 01800-01900\," Caroline Winterer
+URL:https://theinterval.org/salon-talks/02018/sep/04/art-and-science-of-dee
+ p-time-Winterer
 END:VEVENT
 END:VCALENDAR
