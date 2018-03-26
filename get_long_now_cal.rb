@@ -47,7 +47,8 @@ calendar = Icalendar::Calendar.new
 calendar.prodid = "Long Now Cal Scraper v#{VERSION} https://github.com/purp/long_now_cal_scraper"
 tz = TZInfo::Timezone.get("America/Los_Angeles")
 calendar.add_timezone(tz.ical_timezone(DateTime.new(1999, 6, 19, 19, 15, 0)))
-
+calendar.append_custom_property("X-WR-CALNAME", "Long Now Events")
+calendar.append_custom_property("X-WR-CALDESC", "A list of events scraped from the Long Now and Interval websites.")
 
 # Fetch seminars page
 puts "\n\n>>> Fetching seminars ..."
